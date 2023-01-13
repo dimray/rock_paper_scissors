@@ -37,7 +37,7 @@ function getComputerChoice() {
 function playRound(playerSelection, computerSelection) {
 
   if (playerSelection === computerSelection) {
-    console.log(`tie: ${computerSelection} equals ${playerSelection}.
+    console.log(`tie: ${computerSelection} matches ${playerSelection}.
     Player: ${playerScore} Computer: ${computerScore}`);
 
   } else if (playerSelection === "rock" && computerSelection === "paper") {
